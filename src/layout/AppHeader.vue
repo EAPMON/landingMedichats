@@ -20,6 +20,26 @@
             
             <ul class="navbar-nav  align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
+                    <a class="nav-link nav-link-icon text-primary" href="#" target="_blank" rel="noopener">
+                        <span >Inicio</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-icon text-primary" href="#registro" target="_blank" rel="noopener">
+                        <span >como me registro</span>
+                    </a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link nav-link-icon text-primary" href="#porque" target="_blank" rel="noopener">
+                        <span >Porqué Medichats</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-icon text-primary" href="#como" target="_blank" rel="noopener">
+                        <span >Como funciona</span>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link nav-link-icon text-primary" href="https://www.facebook.com/MedichatsAMESCOIPS/" target="_blank" rel="noopener"
                        data-toggle="tooltip" title="Like us on Facebook">
                         <i class="fa fa-facebook-square"></i>
@@ -33,23 +53,9 @@
                         <span class="nav-link-inner--text d-lg-none">Instagram</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-icon text-info" href="https://www.instagram.com/medichats/?hl=es-la" target="_blank" rel="noopener"
-                       data-toggle="tooltip" title="Follow us on Twitter">
-                        <i class="fa fa-twitter-square"></i>
-                        <span class="nav-link-inner--text d-lg-none">Twitter</span>
-                    </a>
-                </li>
                 
-                <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="#" target="_blank" rel="noopener"
-                       class="btn btn-neutral btn-icon">
-                <span class="btn-inner--icon">
-                  <i class="fa fa-comments-o mr-2"></i>
-                </span>
-                        <span class="nav-link-inner--text">CONTACTANOS</span>
-                    </a>
-                </li>
+                
+               
             </ul>
         </base-nav>
     </header>

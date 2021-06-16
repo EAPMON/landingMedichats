@@ -45,27 +45,29 @@
       </section>
       <!-- paso a paso  -->
     </div>
-    <section class="section section-lg pt-lg-0 mt--200">
+    <section id="registro" class="section section-lg pt-lg-0 mt--200">
       <div class="container">
         <div class="row justify-content-center">
-
           <div class="col-lg-12">
-
-
-           <div class="row row-grid align-items-center">
+            <div class="row row-grid align-items-center">
               <div class="col-lg-12">
                 <h1 class="display-3 text-center">
-                  Más fácil imposible...
-                  <p class="text-center">Medichat está disponible cuando necesitas ayuda</p>
+                  Más fácil imposible
+                  <p class="text-center">
+                    Medichat está disponible cuando necesitas ayuda
+                  </p>
                 </h1>
               </div>
             </div>
 
-
-
             <div class="row row-grid">
               <div class="col-lg-4">
-                <card class="border-0 row justify-content-center" hover shadow body-classes="py-5">
+                <card
+                  class="border-0 row justify-content-center "
+                  hover
+                  shadow
+                  body-classes="py-5"
+                >
                   <div class="col-lg-1 offset-4">
                     <icon type="primary" rounded class="mb-4">
                       <h3 class="text-white">1</h3>
@@ -78,8 +80,8 @@
                     Utiliza cualquiera de nuestros métodos de pago. Nequi
                     3175634085 o Cuenta de ahorro Bancolombia 67835505674
                   </p>
-                  <div  class="text-center">
-                    <badge  type="primary" rounded>Nequi</badge>
+                  <div class="text-center">
+                    <badge type="primary" rounded>Nequi</badge>
                     <badge type="primary" rounded>Bancolombia</badge>
                   </div>
                   <base-button
@@ -119,9 +121,13 @@
                       <h3 class="text-white">3</h3>
                     </icon>
                   </div>
-                  <h6 class="text-warning text-center text-uppercase">¡listo!</h6>
+                  <h6 class="text-warning text-center text-uppercase">
+                    ¡listo!
+                  </h6>
                   <p class="description text-center mt-3">
-                    Luego de cumplir estos sencillos pasos tú y tus beneficiarios podrán acceder a consultas médicas a través de nuestra línea de atención.
+                    Luego de cumplir estos sencillos pasos tú y tus
+                    beneficiarios podrán acceder a consultas médicas a través de
+                    nuestra línea de atención.
                   </p>
 
                   <base-button tag="a" href="#" type="warning" class="mt-4">
@@ -137,35 +143,149 @@
 
     <!-- por que medichats -->
 
-      <section class="section section-lg">
+    <section id="porque" class="section-shaped section-lg">
+       <div class="shape shape-style-1 shape-default shape-skew">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-12 order-md-2">
-           <div class="row row-grid align-items-center">
-              <div class="col-lg-12">
-                <h1 class="display-3 text-center">
-                  ¿Por qué Medichats?
-                </h1>
-              </div>
-            </div>
             <div class="row row-grid align-items-center">
               <div class="col-lg-12">
-                
+                <h1 class="display-3 text-center text-white mb-5">¿Por qué Medichats?</h1>
               </div>
             </div>
+            <div class="row justify-content-center">
+             <div class=" col-lg-3 ">
+                <card
+                class="border-0  justify-content-center"
+                hover
+                body-classes="py-5"
+                shadow
+              >
+                <div >
+                  <img src="img/theme/svg/heart-green.svg" class="img-fluid mb-3 " />
+                </div>
+                <h5 class="title text-center">
+                  <span class="d-block mb-1 text-success">24/7</span>
+                  <p class="h6 ">Sin importar el dia o la hora, estamos disponibles para atenderte.</p>
+                </h5>
+              </card>
+             </div>
+             <div class=" col-lg-3 ">
+                <card
+                class="border-0  justify-content-center"
+                hover
+                body-classes="py-5"
+                shadow
+              >
+                <div >
+                  <img src="img/theme/svg/world.svg" class="img-fluid mb-3 " />
+                </div>
+                <h5 class="title text-center">
+                  <span class="d-block mb-1 text-success">Estés donde estés</span>
+                  <p class="h6 ">Puedes consultar con tu medico desde cualquier lugar del mundo.</p>
+                </h5>
+              </card>
+             </div>
+             <div class=" col-lg-3 ">
+                <card
+                class="border-0  justify-content-center"
+                hover
+                body-classes="py-5"
+                shadow
+              >
+                <div >
+                  <img src="img/theme/svg/doctor.svg" class="img-fluid mb-3 " />
+                </div>
+                <h5 class="title text-center">
+                  <span class="d-block mb-1 text-success">Doctores certificados</span>
+                  <p class="h6 ">Nuestros profesionales de la salud están autorizados por la agencia gubernamental.</p>
+                </h5>
+              </card>
+             </div>
+             <div class=" col-lg-3 ">
+                <card
+                class="border-0  justify-content-center"
+                hover
+                body-classes="py-5"
+                shadow
+              >
+                <div >
+                  <img src="img/theme/svg/Connected.svg" class="img-fluid mb-3 " />
+                </div>
+                <h5 class="title text-center">
+                  <span class="d-block mb-1 text-success">1200 Pacientes registrados</span>
+                  <p class="h6 ">Son mas de 1200 familias las que ya confían en nuestro servicio. </p>
+                </h5>
+              </card>
+             </div>
+             
+              <!-- <div class="px-4 " shadow>
+              <img
+                v-lazy="'img/theme/team-1-800x800.jpg'"
+                class="
+                  rounded-circle
+                  img-center img-fluid
+                  shadow
+                  shadow-lg--hover
+                "
+                style="width: 200px"
+              />
+              <div class="pt-4 text-center">
+                <h5 class="title">
+                  <span class="d-block mb-1">Ryan Tompson</span>
+                  <small class="h6 text-muted">Web Developer</small>
+                </h5>
+                <div class="mt-3">
+                  <base-button
+                    tag="a"
+                    href="#"
+                    type="warning"
+                    icon="fa fa-twitter"
+                    rounded
+                    icon-only
+                  ></base-button>
+                  <base-button
+                    tag="a"
+                    href="#"
+                    type="warning"
+                    icon="fa fa-facebook"
+                    rounded
+                    icon-only
+                  ></base-button>
+                  <base-button
+                    tag="a"
+                    href="#"
+                    type="warning"
+                    icon="fa fa-dribbble"
+                    rounded
+                    icon-only
+                  ></base-button>
+                </div>
+              </div>
+            </div> -->
+             
+            </div>
           </div>
-          
         </div>
       </div>
     </section>
-     
 
-    <!-- --------------------------- -->
-    <section class="section section-lg">
+    <!-- ----------- como---------------- -->
+     <section id="como" class="section section-lg">
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-md-2">
-            <img src="img/theme/promo-1.png" class="img-fluid floating" />
+            <img src="img/theme/svg/chat.svg" class="img-fluid floating" />
           </div>
           <div class="col-md-6 order-md-1">
             <div class="pr-md-5">
@@ -177,11 +297,9 @@
                 shadow
                 rounded
               ></icon>
-              <h3>Awesome features</h3>
+              <h3>¿Como funciona?</h3>
               <p>
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go.
+                Medichats es la forma más rápida y segura de obtener ayuda personalizada de un médico de verdad.
               </p>
               <ul class="list-unstyled mt-5">
                 <li class="py-2">
@@ -190,9 +308,12 @@
                       type="success"
                       circle
                       class="mr-3"
-                      icon="ni ni-settings-gear-65"
+                      icon="ni ni-watch-time"
                     ></badge>
-                    <h6 class="mb-0">Carefully crafted components</h6>
+                    <h6 class="mb-0">
+                      La dedicación de nuestros médicos nos permite responder la mayoría de 
+                      las preguntas en 5 minutos o menos.
+                    </h6>
                   </div>
                 </li>
                 <li class="py-2">
@@ -201,9 +322,11 @@
                       type="success"
                       circle
                       class="mr-3"
-                      icon="ni ni-html5"
+                      icon="ni ni-calendar-grid-58"
                     ></badge>
-                    <h6 class="mb-0">Amazing page examples</h6>
+                    <h6 class="mb-0">
+                      Estamos disponibles las 24h del día, los 7 dias de la semana para que no tengas que preocuparte.
+                    </h6>
                   </div>
                 </li>
                 <li class="py-2">
@@ -212,9 +335,11 @@
                       type="success"
                       circle
                       class="mr-3"
-                      icon="ni ni-satisfied"
+                      icon="fa fa-users"
                     ></badge>
-                    <h6 class="mb-0">Super friendly support team</h6>
+                    <h6 class="mb-0">
+                      Te atendemos a ti, y a tu núcleo familiar por el mismo precio   
+                    </h6>
                   </div>
                 </li>
               </ul>
@@ -223,7 +348,7 @@
         </div>
       </div>
     </section>
-    <section class="section bg-secondary">
+  <!--  <section class="section bg-secondary">
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6">
@@ -742,19 +867,20 @@
               </h4>
               <div class="row justify-content-center">
                 <div class="col-lg-2 col-4">
-                  <a
-                    href="https://getbootstrap.com/"
-                    target="_blank"
-                    data-toggle="tooltip"
-                    data-original-title="Bootstrap 4 - Most popular front-end component library"
+                  <card
+                    class="border-0 row justify-content-center"
+                    hover
+                    body-classes="py-5"
                   >
-                    <img
-                      v-lazy="
-                        'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg'
-                      "
-                      class="img-fluid"
-                    />
-                  </a>
+                    <div class="col-lg-1">
+                      <icon
+                        type="primary"
+                        rounded
+                        class="ni ni-favourite-28 text-white"
+                      >
+                      </icon>
+                    </div>
+                  </card>
                 </div>
                 <div class="col-lg-2 col-4">
                   <a
@@ -835,7 +961,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
