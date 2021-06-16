@@ -30,7 +30,7 @@
                 <div class="btn-wrapper">
                   <base-button
                     tag="a"
-                    href="#"
+                    href="https://api.whatsapp.com/send?phone=34123456789&text=Hola Medichats,%20estoy%20interesado%20en%20afiliarme?"
                     class="mb-3 mb-sm-0"
                     type="primary"
                     icon="fa fa-sign-in"
