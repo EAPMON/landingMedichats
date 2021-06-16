@@ -26,9 +26,17 @@ export default new Router({
   ],
   scrollBehavior: to => {
     if (to.hash) {
-      return { selector: to.hash };
-    } else {
-      return { x: 0, y: 0 };
+      setTimeout(() => {
+        const element = document.getElementById(to.hash.replace(/#/, ''))
+        if (element && element.scrollIntoView) {
+          element.scrollIntoView({block: 'end', behavior: 'smooth'})
+        }
+      }, 500)
+      return {el: to.hash};
     }
+    else if (savedPosition) {
+      return savedPosition
+    }
+    return {top: 0}
   }
 });

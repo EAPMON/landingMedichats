@@ -962,17 +962,50 @@
         </div>
       </div>
     </section> -->
+    <a href="#" class="btn-flotante floating">
+      <icon name="ni ni-bold-up">  </icon>
+    </a>
   </div>
 </template>
 
 <script>
+import Icon from '../components/Icon.vue';
 export default {
   name: "home",
-  components: {},
+  components: {Icon},
 };
 </script>
 <style scoped>
 .home {
   background-image: url("/img/ill/fondo.png");
+}
+.btn-flotante {
+	font-size: 16px; /* Cambiar el tamaño de la tipografia */
+	text-transform: uppercase; /* Texto en mayusculas */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: #ffffff; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	letter-spacing: 2px; /* Espacio entre letras */
+	background-color: #a3be2b; /* Color de fondo */
+	padding: 2px 4px; /* Relleno del boton */
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.btn-flotante:hover {
+	background-color: #4973b1; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
 }
 </style>

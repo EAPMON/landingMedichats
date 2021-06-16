@@ -19,25 +19,22 @@
 
             
             <ul class="navbar-nav  align-items-lg-center ml-lg-auto">
+               
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon text-primary" href="#" target="_blank" rel="noopener">
-                        <span >Inicio</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-icon text-primary" href="#registro" target="_blank" rel="noopener">
+                    <router-link class="nav-link nav-link-icon text-primary" to="#registro" >
                         <span >como me registro</span>
-                    </a>
+                    </router-link>
                 </li> 
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon text-primary" href="#porque" target="_blank" rel="noopener">
+                    <router-link class="nav-link nav-link-icon text-primary" to="#porque" >
                         <span >Porqué Medichats</span>
-                    </a>
+                    </router-link>
+                   
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon text-primary" href="#como" target="_blank" rel="noopener">
+                    <router-link class="nav-link nav-link-icon text-primary" to="#como" >
                         <span >Como funciona</span>
-                    </a>
+                    </router-link>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon text-primary" href="https://www.facebook.com/MedichatsAMESCOIPS/" target="_blank" rel="noopener"
