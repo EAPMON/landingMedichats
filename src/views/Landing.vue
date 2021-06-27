@@ -342,6 +342,19 @@
                     </h6>
                   </div>
                 </li>
+                 <li class="py-2">
+                  <div class="d-flex align-items-center">
+                    <badge
+                      type="success"
+                      circle
+                      class="mr-3"
+                      icon="fa fa-whatsapp"
+                    ></badge>
+                    <h6 class="mb-0">
+                      Para las consulatas usamos la mensajeria instantanea de WhatsApp  
+                    </h6>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -375,6 +388,154 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section>
+      <div class="shadow-desk">
+                <div class="plan-preferido text-center font-weight-normal text-uppercase">
+                  PREFERIDO
+                </div>
+                <div class="plan-name text-center font-weight-bold text-uppercase">
+                  ColHost2
+                </div>
+                <div class="plan-title text-center d-flex justify-content-center flex-column pb-5">
+                  <span class="price-before d-block w-100">Precio Normal:
+                    $260,000</span>
+                  <span class="plan-price d-block w-100 font-weight-bold">$208,000</span>
+                  <span class="plan-cupon font-weight-normal">el 1.er año usando el cupón
+                    <strong>wp2021</strong> ahorra el
+                    <strong>20%</strong>
+                  </span>
+                </div>
+                <div class="contenido text-center">
+                  <div class="exclusivo">
+                    <h6>Exclusivo de ColombiaHosting</h6>
+                    <ul class="list-unstyled font-weight-light mb-0">
+                      <li tabindex="0" data-toggle="tooltip" data-html="true" title="
+                            <div class='card card-tooltip border-dark'>
+                              <div class='card-header text-uppercase'>LiteSpeed y LSCache</div>
+                              <div class='card-body text-gray p-1'>
+                                <p class='card-text'>Servidor Web de Alto Desempeño con Sistema de Cache para tu sitio en Wordpress
+                                </p>
+                            </div>
+                        </div>
+                              ">
+                        LiteSpeed y LSCache
+                      </li>
+
+                      <li tabindex="0" data-toggle="tooltip" data-html="true" title="
+                            <div class='card card-tooltip border-dark'>
+                              <div class='card-header text-uppercase'>Constructor de sitios Plus</div>
+                              <div class='card-body text-gray p-1'>
+                                <p class='card-text'>Diseñe su sitio web de forma fácil y rápida sin necesidad de tener conocimientos técnicos.
+                                </p>
+                            </div>
+                        </div>
+                              ">
+                        Constructor de sitios Plus
+                      </li>
+
+                      <li tabindex="0" data-toggle="tooltip" data-html="true" title="
+                            <div class='card card-tooltip border-dark'>
+                              <div class='card-header text-uppercase'>Carrito de compras Plus</div>
+                              <div class='card-body text-gray p-1'>
+                                <p class='card-text'>Utilizando el Constructor Plus con solo 2 clics implemente un carrito de compra y administre sus productos sin necesidad de tener conocimientos técnicos.
+                                Compatible con más de 20 pasarelas de pago (Payu Latam, Pagosonline, Pagoagil, Interpagos, ePayco, Mercadopago, Paypal)
+                                </p>
+                            </div>
+                        </div>
+                              ">
+                        Carrito de compras Plus
+                      </li>
+
+                      <li tabindex="0" data-toggle="tooltip" data-html="true" title="
+                            <div class='card card-tooltip border-dark'>
+                              <div class='card-header text-uppercase'>Chat para tu sitio web</div>
+                              <div class='card-body text-gray p-1'>
+                                <p class='card-text'>Permite a los visitantes de tu sitio web contactarte por medio de chat con uno de los medios de mayor uso en la actualidad y recibe los chat en tu movil, tablet o equipo, agregando con solo un par de clicks un botón en tu página web sin requerir conocimientos técnicos. 
+                                </p>
+                            </div>
+                        </div>
+                              ">
+                        Chat para tu sitio web
+                      </li>
+
+                    </ul>
+                  </div>
+                  <ul class="tooltips list-unstyled font-weight-light mb-0">
+                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
+                            <div class='card card-tooltip border-dark'>
+                              <div class='card-header text-uppercase'>Calidad Certificada ISO 9001</div>
+                              <div class='card-body text-gray p-1'>
+                                <p class='card-text p-3'>Único Proveedor de Hosting Certificado en Colombia.
+                                </p>
+                                </div>
+                                </div> "> Calidad Certificada ISO 9001
+                    </li>
+                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
+                            <div class='card card-tooltip border-dark'>
+                              <div class='card-header text-uppercase'>20 GB de espacio</div>
+                              <div class='card-body text-gray p-1'>
+                                <p class='card-text p-3'>Cantidad de datos que usted puede almacenar dentro de su cuenta, incluye contenido web, bases de datos y correos.
+                                </p>
+                                </div>
+                                </div> "> 20 GB de espacio
+                    </li>
+                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
+                            <div class='card card-tooltip border-dark'>
+                              <div class='card-header text-uppercase'>20 correos corporativos</div>
+                              <div class='card-body text-gray p-1'>
+                                <p class='card-text p-3'>Cantidad de cuentas de correo que incluye el plan, las cuentas pueden ser creadas por usted mediante el cPanel, las cuentas quedarán por ejemplo: gerencia@sudominio.com
+                                </p>
+                                </div>
+                                </div> "> 20 correos corporativos
+                    </li>
+                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
+                            <div class='card card-tooltip border-dark'>
+                              <div class='card-header text-uppercase'>Email Marketing</div>
+                              <div class='card-body text-gray p-1'>
+                                <p class='card-text p-3'>Realice campañas de email marketing a 1.000 contactos, 10 veces al mes desde la plataforma EmailMarketing, con estadísticas, plantillas e importación de contactos.
+                                </p>
+                                </div>
+                                </div> "> Email Marketing
+                    </li>
+                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
+                            <div class='card card-tooltip border-dark'>
+                              <div class='card-header text-uppercase'>10 Bases de Datos MySQL</div>
+                              <div class='card-body text-gray p-1'>
+                                <p class='card-text p-3'>Cantidad de bases de datos que puede utilizar su diseñador para crear el sitio web.
+                                </p>
+                                </div>
+                                </div> "> 10 Bases de Datos MySQL
+                    </li>
+                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
+                            <div class='card card-tooltip border-dark'>
+                              <div class='card-header text-uppercase'>Alojamiento para 1 Web</div>
+                              <div class='card-body text-gray p-1'>
+                                <p class='card-text p-3'>Es la cantidad total de sitios web con diferentes dominios que puedes alojar en el plan de Hosting, los dominios no estan incluidos, deben adquirirse por separado.
+                                </p>
+                                </div>
+                                </div> "> Alojamiento para 1 Web
+                    </li>
+                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
+                            <div class='card card-tooltip border-dark'>
+                              <div class='card-header text-uppercase'>Certificado SSL (https)</div>
+                              <div class='card-body text-gray p-1'>
+                                <p class='card-text p-3'>Certificado SSL LE SNI para tu sitio web, utiliza tu dominio principal con https y protege el tráfico de tus visitantes.
+                                </p>
+                                </div>
+                                </div> "> Certificado SSL (https)
+                    </li>
+                    <li>
+                      <a href="#" class="text-blue" data-toggle="modal" data-target="#plan2-modal">Ver todas las
+                        características</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <a class="btn btn-orden text-uppercase"
+                  href="https://www.colombiahosting.com.co/configurar/hosting/colhost2">Empieza
+                  tu orden</a>
+              </div>
     </section>
   <!--  <section class="section bg-secondary">
       <div class="container">
