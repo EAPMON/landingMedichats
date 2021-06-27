@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="section-hero section-shaped my-0">
-      <div class="shape shape-style-2 shape-default shape-skew">
+      <div class="shape shape-style-1 shape-default shape-skew">
         <span class="span-150"></span>
         <span class="span-50"></span>
         <span class="span-50"></span>
@@ -17,7 +17,7 @@
         <div class="col px-0">
           <div class="row justify-content-center align-items-center">
             <div class="col-lg-7 text-center pt-lg">
-              <h1 class="display-3 text-white">¿QUE SOMOS?</h1>
+              <h1 class="display-1 text-white">¿QUE SOMOS?</h1>
               <p class="lead text-white mt-4 mb-5">
                 Somos un servicio de orientación medica y atención básica
                 prestado a través de la aplicación de mensajería instantánea

@@ -4,9 +4,13 @@
             <div class="row">
                 <div class="col-md-6 mb-5 mb-md-0">
                     <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/landing" title="Landing Page">
-                            <img v-lazy="'img/theme/landing.jpg'" class="card-img">
-                        </router-link>
+                        <card
+                  class="border-0 row justify-content-center "
+                  shadow
+                  body-classes="py-5"
+                >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.27113819478248!2d-75.51584429418673!3d10.394689617061672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef625f271c0ec89%3A0x8feda847cc953b39!2sIPS%20Amesco!5e0!3m2!1ses!2sco!4v1624825068113!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </card>
                     </div>
                 </div>
                 <div class="col-md-6 mb-5 mb-lg-0">
