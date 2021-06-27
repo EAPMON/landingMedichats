@@ -361,10 +361,12 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5 mb-5 mb-lg-0">
                     <h1 class="text-white font-weight-light">MI EXPERIENCIA MEDICHATS</h1>
-                    <p class="lead text-white mt-4">Argon Design System comes with four pre-built pages to help you get
-                        started faster. You can change the text and images and you're good to go.</p>
-                    <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                       class="btn btn-white mt-4">See all components</a>
+                    <p class="lead text-white mt-4">
+                      Nuestros usuarios recomiendan Medichats porque es una excelente alternativa
+                      de asesoría medica especializada las 24 horas del día  
+                    </p>
+                    <a href="#registro"
+                       class="btn btn-white mt-4">Registrate Ahora</a>
                 </div>
                 <div class="col-lg-6 mb-lg-auto">
                     <div class="rounded shadow-lg  transform-perspective-right">
