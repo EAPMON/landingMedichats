@@ -30,7 +30,7 @@
                 <div class="btn-wrapper">
                   <base-button
                     tag="a"
-                    href="https://api.whatsapp.com/send?phone=34123456789&text=Hola Medichats,%20estoy%20interesado%20en%20afiliarme?"
+                    href="#registro"
                     class="mb-3 mb-sm-0"
                     type="primary"
                     icon="fa fa-sign-in"
@@ -86,7 +86,7 @@
                   </div>
                   <base-button
                     tag="a"
-                    href="https://www.nequi.com.co/"
+                    href="https://recarga.nequi.com.co/bdigitalpsl/"
                     type="primary"
                     class="mt-4"
                   >
@@ -109,7 +109,7 @@
                     numero 3058623146 y espera mientras nuestros colaboradores
                     validan tus datos
                   </p>
-                  <base-button tag="a" href="#" type="success" class="mt-4">
+                  <base-button tag="a" href="https://api.whatsapp.com/send?phone=3058623146" type="success" class="mt-4">
                     Enviar
                   </base-button>
                 </card>
@@ -299,7 +299,7 @@
               ></icon>
               <h3>¿Como funciona?</h3>
               <p>
-                Medichats es la forma más rápida y segura de obtener ayuda personalizada de un médico de verdad.
+                Medichats es la forma más rápida y segura de obtener ayuda personalizada de un Profesional Médico.
               </p>
               <ul class="list-unstyled mt-5">
                 <li class="py-2">

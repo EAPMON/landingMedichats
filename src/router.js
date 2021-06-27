@@ -2,7 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
-import Components from "./views/Components.vue";
+import About from "./views/About.vue";
 import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
@@ -22,7 +22,17 @@ export default new Router({
         default: Landing,
         footer: AppFooter
       }
-    }
+    },
+    {
+      path: "/about",
+      name: "about",
+      components: {
+        header: AppHeader,
+        default: About,
+        footer: AppFooter
+      }
+    },
+
   ],
   scrollBehavior: to => {
     if (to.hash) {
