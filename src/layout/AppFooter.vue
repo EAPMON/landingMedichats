@@ -8,24 +8,55 @@
                     </h1>
                     <br/>
                     <div class="card card-lift--hover shadow border-0">
-                        <div class="card-body p-3" >
-                            <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7848.672216138554!2d-75.515694!3d10.394857!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef625ed8b831a0f%3A0x5896a79f933f88a7!2sTv.%2049%20%2322%2C%20Cartagena%2C%20Provincia%20de%20Cartagena%2C%20Bol%C3%ADvar%2C%20Colombia!5e0!3m2!1ses-419!2sus!4v1624797718283!5m2!1ses-419!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.3793752400657!2d-75.4839062825562!3d10.391412799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef6256bec183dc9%3A0xd81f2596f6731ae4!2sComunidad%20jud%C3%ADa%20mesi%C3%A1nica%20Mz%208%20Lote%204!5e0!3m2!1ses-419!2sco!4v1624804965329!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-                        </div>
+                        <card
+                            class="border-0 row justify-content-center "
+                            shadow
+                            body-classes="py-5"
+                            >
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.27113819478248!2d-75.51584429418673!3d10.394689617061672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef625f271c0ec89%3A0x8feda847cc953b39!2sIPS%20Amesco!5e0!3m2!1ses!2sco!4v1624825068113!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </card>
                     </div>
                 </div>
                 <div class="col-md-6 mb-5 mb-lg-0">
                     <h1 class="display-3">
-                        ¿Casos de éxito?
+                        ¡No esperes más!
                     </h1>
                     <br/>
                     <div class="card card-lift--hover shadow border-0">
-                        <div class="card-body p-3">
-                        <iframe width="100%" height="450" src="https://www.youtube.com/embed/IaSIKN2ghx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+                        
+                        <div class="container pt-lg-md">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                   
+                                        
+                                        <template>
+                                            <div class="text-center text-muted mb-4">
+                                                <small>Llena el formulario y pronto nos comunicaremos contigo</small>
+                                            </div>
+                                            <form role="form">
+                                                <base-input alternative
+                                                            class="mb-3"
+                                                            placeholder="Nombre"
+                                                            addon-left-icon="ni ni-users"
+                                                            v-model="user.name">
+                                                </base-input>
+                                                <base-input alternative
+                                                            type="text"
+                                                            placeholder="Celular de contacto"
+                                                            addon-left-icon="ni ni-phone-number"
+                                                            v-model="user.phone_number">
+                                                </base-input>
+                                                <div class="text-center">
+                                                    <base-button type="primary" class="my-4" v-on:click="addUser">Enviar</base-button>
+                                                </div>
+                                            </form>
+                                        </template>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
+                
                 </div>
             </div>
         </div>
@@ -66,13 +97,36 @@
     </footer>
 </template>
 <script>
+import axios from 'axios'
 export default {
   name: 'app-footer',
   data() {
     return {
-      year: new Date().getFullYear()
+      year: new Date().getFullYear(),
+      user: {}
     }
   },
+  methods:{
+    addUser(){
+        axios
+            .post('https://back.teloconsigo.net/public/api/usuarios', this.user)
+            .then(response => {
+                /*axios
+                    .post('https://back.teloconsigo.net/public/api/contactanos', response.data)
+                    .then(res => {
+                        console.log(res);
+                    })
+                    .catch(err => {
+                        console.log(err);
+                    })*/
+                console.log(response.data);
+            })
+            .catch(error => {
+                console.log(error);
+            })
+
+    }
+  }
 
 };
 </script>

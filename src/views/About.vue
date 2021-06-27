@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="section-hero section-shaped my-0">
-      <div class="shape shape-style-2 shape-default shape-skew">
+      <div class="shape shape-style-1 shape-default shape-skew">
         <span class="span-150"></span>
         <span class="span-50"></span>
         <span class="span-50"></span>
@@ -17,7 +17,7 @@
         <div class="col px-0">
           <div class="row justify-content-center align-items-center">
             <div class="col-lg-7 text-center pt-lg">
-              <h1 class="display-3 text-white">¿QUE SOMOS?</h1>
+              <h1 class="display-1 text-white">¿QUE SOMOS?</h1>
               <p class="lead text-white mt-4 mb-5">
                 Somos un servicio de orientación medica y atención básica
                 prestado a través de la aplicación de mensajería instantánea
@@ -321,7 +321,7 @@
       <div class="container">
         <div class="row justify-content-center text-center mb-lg">
           <div class="col-lg-8">
-            <h2 class="display-3">EQUIPO DE TRABAJO</h2>
+            <h2 class="display-3">GERENCIA</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -348,27 +348,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="px-4">
-              <img
-                v-lazy="'img/theme/yesyca.jpg'"
-                class="
-                  rounded-circle
-                  img-center img-fluid
-                  shadow
-                  shadow-lg--hover
-                "
-                style="width: 200px"
-              />
-              <div class="pt-4 text-center">
-                <h5 class="title">
-                  <span class="d-block mb-1">Yesyca</span>
-                  <small class="h6 text-muted">Fundador</small>
-                </h5>
-                
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>

@@ -109,7 +109,7 @@
                     numero 3058623146 y espera mientras nuestros colaboradores
                     validan tus datos
                   </p>
-                  <base-button tag="a" href="https://api.whatsapp.com/send?phone=3058623146" type="success" class="mt-4">
+                  <base-button tag="a" href="https://api.whatsapp.com/send?phone=+573058623146" type="success" class="mt-4">
                     Enviar
                   </base-button>
                 </card>
@@ -348,44 +348,31 @@
         </div>
       </div>
     </section>
-    
-    
-  <section class="section section-lg pt-lg-1 section-contact-us">
-      <div class="container">
-        <div class="row justify-content-center mt--300">
-          <div class="col-lg-8">
-            <card gradient="secondary" shadow body-classes="p-lg-5">
-              <h4 class="mb-1">Want to work with us?</h4>
-              <p class="mt-0">Your project is very important to us.</p>
-              <base-input
-                class="mt-5"
-                alternative
-                placeholder="Your name"
-                addon-left-icon="ni ni-user-run"
-              >
-              </base-input>
-              <base-input
-                alternative
-                placeholder="Email address"
-                addon-left-icon="ni ni-email-83"
-              >
-              </base-input>
-              <base-input class="mb-4">
-                <textarea
-                  class="form-control form-control-alternative"
-                  name="name"
-                  rows="4"
-                  cols="80"
-                  placeholder="Type a message..."
-                ></textarea>
-              </base-input>
-              <base-button type="default" round block size="lg">
-                Send Message
-              </base-button>
-            </card>
-          </div>
+     <section class="section section-lg section-shaped overflow-hidden my-0">
+        <div class="shape shape-style-1 shape-default shape-skew">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-      </div>
+        <div class="container py-0 pb-lg">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h1 class="text-white font-weight-light">MI EXPERIENCIA MEDICHATS</h1>
+                    <p class="lead text-white mt-4">Argon Design System comes with four pre-built pages to help you get
+                        started faster. You can change the text and images and you're good to go.</p>
+                    <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
+                       class="btn btn-white mt-4">See all components</a>
+                </div>
+                <div class="col-lg-6 mb-lg-auto">
+                    <div class="rounded shadow-lg  transform-perspective-right">
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/uoa0gSS_SOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
   <!--  <section class="section bg-secondary">
       <div class="container">
@@ -1043,7 +1030,6 @@
 import Icon from '../components/Icon.vue';
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
-
 export default {
   name: "home",
   components: {
@@ -1065,7 +1051,7 @@ export default {
 	border-radius: 5px; /* Borde del boton */
 	letter-spacing: 2px; /* Espacio entre letras */
 	background-color: #a3be2b; /* Color de fondo */
-	padding: 2px 4px; /* Relleno del boton */
+	padding: 0.5px 1px; /* Relleno del boton */
 	position: fixed;
 	bottom: 40px;
 	right: 40px;
@@ -1078,12 +1064,5 @@ export default {
 	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 	transform: translateY(-7px);
 }
-@media only screen and (max-width: 600px) {
- 	.btn-flotante {
-		font-size: 14px;
-		padding: 12px 20px;
-		bottom: 20px;
-		right: 20px;
-	}
-}
+
 </style>
