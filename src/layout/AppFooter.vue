@@ -7,7 +7,7 @@
                         ¿Cómo llegar?
                     </h1>
                     <br/>
-                    <div class="card card-lift--hover shadow border-0">
+                    <div class=" shadow border-0">
                         <card
                             class="border-0 row justify-content-center "
                             shadow
@@ -22,7 +22,7 @@
                         ¡No esperes más!
                     </h1>
                     <br/>
-                    <div class="card card-lift--hover shadow border-0">
+                    <div class=" shadow border-0">
                         
                         <div class="container pt-lg-md">
                             <div class="row justify-content-center">

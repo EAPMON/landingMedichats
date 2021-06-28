@@ -343,6 +343,19 @@
                     </h6>
                   </div>
                 </li>
+                 <li class="py-2">
+                  <div class="d-flex align-items-center">
+                    <badge
+                      type="success"
+                      circle
+                      class="mr-3"
+                      icon="fa fa-whatsapp"
+                    ></badge>
+                    <h6 class="mb-0">
+                      Para las consulatas usamos la mensajeria instantanea de WhatsApp  
+                    </h6>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -385,6 +398,26 @@
             </div>
         </div>
     </section>
+   <!--  <section>
+      <div class="shadow-desk">
+                <div class="plan-preferido text-center font-weight-normal text-uppercase">
+                  PREFERIDO
+                </div>
+                <div class="plan-name text-center font-weight-bold text-uppercase">
+                  ColHost2
+                </div>
+                <div class="plan-title text-center d-flex justify-content-center flex-column pb-5">
+                  <span class="price-before d-block w-100">Precio Normal:
+                    $260,000</span>
+                  <span class="plan-price d-block w-100 font-weight-bold">$208,000</span>
+                  <span class="plan-cupon font-weight-normal">el 1.er año usando el cupón
+                    <strong>wp2021</strong> ahorra el
+                    <strong>20%</strong>
+                  </span>
+                </div>
+
+      </div>
+    </section> -->
   <!--  <section class="section bg-secondary">
       <div class="container">
         <div class="row row-grid align-items-center">
@@ -1044,5 +1077,12 @@ export default {
 	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 	transform: translateY(-7px);
 }
+
+.shadow-desk {
+      box-shadow:0 0 20px 0 #6d6d6d;
+      z-index: 2
+  }
+
+    
 
 </style>
