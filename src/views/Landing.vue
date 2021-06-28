@@ -19,7 +19,7 @@
             <div class="row row-grid align-items-center">
               <div class="col-lg-6">
                 <h1 class="display-3">
-                  Atención y orientación medica
+                  Atención y orientación médica
                   <span>Vía WhatsApp</span>
                 </h1>
                 <p class="lead">
@@ -78,7 +78,7 @@
                   </h6>
                   <p class="description text-center mt-3">
                     Utiliza cualquiera de nuestros métodos de pago. Nequi
-                    3175634085 o Cuenta de ahorro Bancolombia 67835505674
+                    3175634085 o Cuenta de ahorro Bancolombia 67835505674.
                   </p>
                   <div class="text-center">
                     <badge type="primary" rounded>Nequi</badge>
@@ -89,6 +89,7 @@
                     href="https://recarga.nequi.com.co/bdigitalpsl/"
                     type="primary"
                     class="mt-4"
+                    target="_blank"
                   >
                     Pagar Nequi
                   </base-button>
@@ -102,14 +103,14 @@
                     </icon>
                   </div>
                   <h6 class="text-success text-center text-uppercase">
-                    Envía tu comprobante de pago
+                    Envía tu comprobante de pago.
                   </h6>
                   <p class="description mt-3 text-center">
                     Envía capture de tu comprobante de pago vía WhatsApp al
-                    numero 3058623146 y espera mientras nuestros colaboradores
-                    validan tus datos
+                    número 3058623146 y espera mientras nuestros colaboradores
+                    validan tus datos.
                   </p>
-                  <base-button tag="a" href="https://api.whatsapp.com/send?phone=+573058623146" type="success" class="mt-4">
+                  <base-button tag="a" href="https://api.whatsapp.com/send?phone=+573058623146" type="success" class="mt-4" target="_blank">
                     Enviar
                   </base-button>
                 </card>
@@ -175,8 +176,8 @@
                   <img src="img/theme/svg/heart-green.svg" class="img-fluid mb-3 " />
                 </div>
                 <h5 class="title text-center">
-                  <span class="d-block mb-1 text-success">24/7</span>
-                  <p class="h6 ">Sin importar el dia o la hora, estamos disponibles para atenderte.</p>
+                  <span class="d-block mb-1 text-success">24/7.</span>
+                  <p class="h6 ">Sin importar el día o la hora, estamos disponibles para atenderte.</p>
                 </h5>
               </card>
              </div>
@@ -191,8 +192,8 @@
                   <img src="img/theme/svg/world.svg" class="img-fluid mb-3 " />
                 </div>
                 <h5 class="title text-center">
-                  <span class="d-block mb-1 text-success">Estés donde estés</span>
-                  <p class="h6 ">Puedes consultar con tu medico desde cualquier lugar del mundo.</p>
+                  <span class="d-block mb-1 text-success">Estés donde estés.</span>
+                  <p class="h6 ">Puedes consultar con tu médico desde cualquier lugar del mundo.</p>
                 </h5>
               </card>
              </div>
@@ -207,7 +208,7 @@
                   <img src="img/theme/svg/doctor.svg" class="img-fluid mb-3 " />
                 </div>
                 <h5 class="title text-center">
-                  <span class="d-block mb-1 text-success">Doctores certificados</span>
+                  <span class="d-block mb-1 text-success">Doctores certificados.</span>
                   <p class="h6 ">Nuestros profesionales de la salud están autorizados por la agencia gubernamental.</p>
                 </h5>
               </card>
@@ -223,7 +224,7 @@
                   <img src="img/theme/svg/Connected.svg" class="img-fluid mb-3 " />
                 </div>
                 <h5 class="title text-center">
-                  <span class="d-block mb-1 text-success">1200 Pacientes registrados</span>
+                  <span class="d-block mb-1 text-success">+1200 Pacientes registrados.</span>
                   <p class="h6 ">Son mas de 1200 familias las que ya confían en nuestro servicio. </p>
                 </h5>
               </card>
@@ -297,9 +298,9 @@
                 shadow
                 rounded
               ></icon>
-              <h3>¿Como funciona?</h3>
+              <h3>¿Comó funciona?</h3>
               <p>
-                Medichats es la forma más rápida y segura de obtener ayuda personalizada de un Profesional Médico.
+                Medichats es la forma más rápida y segura de obtener ayuda personalizada de un profesional médico.
               </p>
               <ul class="list-unstyled mt-5">
                 <li class="py-2">
@@ -325,7 +326,7 @@
                       icon="ni ni-calendar-grid-58"
                     ></badge>
                     <h6 class="mb-0">
-                      Estamos disponibles las 24h del día, los 7 dias de la semana para que no tengas que preocuparte.
+                      Estamos disponibles las 24 horas del día, los 7 días de la semana para que no tengas que preocuparte.
                     </h6>
                   </div>
                 </li>
@@ -338,7 +339,7 @@
                       icon="fa fa-users"
                     ></badge>
                     <h6 class="mb-0">
-                      Te atendemos a ti, y a tu núcleo familiar por el mismo precio   
+                      Te atendemos a ti, y a tu núcleo familiar por el mismo precio. 
                     </h6>
                   </div>
                 </li>
@@ -363,10 +364,18 @@
                     <h1 class="text-white font-weight-light">MI EXPERIENCIA MEDICHATS</h1>
                     <p class="lead text-white mt-4">
                       Nuestros usuarios recomiendan Medichats porque es una excelente alternativa
-                      de asesoría medica especializada las 24 horas del día  
+                      de asesoría médica especializada las 24 horas del día  
                     </p>
                     <a href="#registro"
-                       class="btn btn-white mt-4">Registrate Ahora</a>
+                    
+                       class="btn btn-white mt-4">
+                       <router-link
+                      class="nav-link nav-link-icon text-primary"
+                      to="#registro"
+                    >Regístrate Ahora
+                    </router-link></a>
+                    
+
                 </div>
                 <div class="col-lg-6 mb-lg-auto">
                     <div class="rounded shadow-lg  transform-perspective-right">
@@ -990,38 +999,7 @@
         </div>
       </div>
     </section> -->
-    <section class="section section-lg section-shaped overflow-hidden my-0">
-        <div class="shape shape-style-1 shape-default shape-skew">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="container py-0 pb-lg">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-5 mb-5 mb-lg-0">
-                    <h1 class="text-white font-weight-light">Bootstrap carousel</h1>
-                    <p class="lead text-white mt-4">Argon Design System comes with four pre-built pages to help you get
-                        started faster. You can change the text and images and you're good to go.</p>
-                    <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                       class="btn btn-white mt-4">See all components</a>
-                </div>
-                <div class="col-lg-6 mb-lg-auto">
-                    <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
-                        <b-carousel id="carousel1"
-                                    controls
-                                    indicators>
-                            <!-- Text slides with image -->
-                            <b-carousel-slide img-src="https://demos.creative-tim.com/vue-argon-design-system/img/theme/landing.jpg"></b-carousel-slide>
-                            <b-carousel-slide img-src="https://demos.creative-tim.com/vue-argon-design-system/img/theme/profile.jpg"></b-carousel-slide>
-                        </b-carousel>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
     <a href="#" class="btn-flotante floating">
       <icon name="ni ni-bold-up">  </icon>
     </a>

@@ -57,7 +57,7 @@
             class="nav-link nav-link-icon text-primary"
             to="#registro"
           >
-            <span>como me registro</span>
+            <span>Como me registro</span>
           </router-link>
         </li>
         <li class="nav-item" v-if="!isAbout">
