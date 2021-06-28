@@ -7,7 +7,7 @@
                         ¿Cómo llegar?
                     </h1>
                     <br/>
-                    <div class="card card-lift--hover shadow border-0">
+                    <div class=" shadow border-0">
                         <card
                             class="border-0 row justify-content-center "
                             shadow
@@ -22,7 +22,7 @@
                         ¡No esperes más!
                     </h1>
                     <br/>
-                    <div class="card card-lift--hover shadow border-0">
+                    <div class=" shadow border-0">
                         
                         <div class="container pt-lg-md">
                             <div class="row justify-content-center">
@@ -60,15 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 mb-5 mb-lg-0">
-          <div class="card card-lift--hover shadow border-0">
-            <router-link to="/profile" title="Profile Page">
-              <img v-lazy="'img/theme/profile.jpg'" class="card-img" />
-            </router-link>
-          </div>
-        </div>
-      </div>
-    </div>
+        
     <div class="container">
       <div class="row row-grid align-items-center my-md">
         <div class="col-lg-6"></div>
@@ -149,14 +141,14 @@ export default {
         axios
             .post('https://back.teloconsigo.net/public/api/usuarios', this.user)
             .then(response => {
-                /*axios
-                    .post('https://back.teloconsigo.net/public/api/contactanos', response.data)
+                axios
+                    .get('https://back.teloconsigo.net/public/api/contactanos', response.data)
                     .then(res => {
                         console.log(res);
                     })
                     .catch(err => {
                         console.log(err);
-                    })*/
+                    })
                 console.log(response.data);
             })
             .catch(error => {

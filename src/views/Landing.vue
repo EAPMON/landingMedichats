@@ -389,7 +389,7 @@
             </div>
         </div>
     </section>
-    <section>
+   <!--  <section>
       <div class="shadow-desk">
                 <div class="plan-preferido text-center font-weight-normal text-uppercase">
                   PREFERIDO
@@ -406,137 +406,9 @@
                     <strong>20%</strong>
                   </span>
                 </div>
-                <div class="contenido text-center">
-                  <div class="exclusivo">
-                    <h6>Exclusivo de ColombiaHosting</h6>
-                    <ul class="list-unstyled font-weight-light mb-0">
-                      <li tabindex="0" data-toggle="tooltip" data-html="true" title="
-                            <div class='card card-tooltip border-dark'>
-                              <div class='card-header text-uppercase'>LiteSpeed y LSCache</div>
-                              <div class='card-body text-gray p-1'>
-                                <p class='card-text'>Servidor Web de Alto Desempeño con Sistema de Cache para tu sitio en Wordpress
-                                </p>
-                            </div>
-                        </div>
-                              ">
-                        LiteSpeed y LSCache
-                      </li>
 
-                      <li tabindex="0" data-toggle="tooltip" data-html="true" title="
-                            <div class='card card-tooltip border-dark'>
-                              <div class='card-header text-uppercase'>Constructor de sitios Plus</div>
-                              <div class='card-body text-gray p-1'>
-                                <p class='card-text'>Diseñe su sitio web de forma fácil y rápida sin necesidad de tener conocimientos técnicos.
-                                </p>
-                            </div>
-                        </div>
-                              ">
-                        Constructor de sitios Plus
-                      </li>
-
-                      <li tabindex="0" data-toggle="tooltip" data-html="true" title="
-                            <div class='card card-tooltip border-dark'>
-                              <div class='card-header text-uppercase'>Carrito de compras Plus</div>
-                              <div class='card-body text-gray p-1'>
-                                <p class='card-text'>Utilizando el Constructor Plus con solo 2 clics implemente un carrito de compra y administre sus productos sin necesidad de tener conocimientos técnicos.
-                                Compatible con más de 20 pasarelas de pago (Payu Latam, Pagosonline, Pagoagil, Interpagos, ePayco, Mercadopago, Paypal)
-                                </p>
-                            </div>
-                        </div>
-                              ">
-                        Carrito de compras Plus
-                      </li>
-
-                      <li tabindex="0" data-toggle="tooltip" data-html="true" title="
-                            <div class='card card-tooltip border-dark'>
-                              <div class='card-header text-uppercase'>Chat para tu sitio web</div>
-                              <div class='card-body text-gray p-1'>
-                                <p class='card-text'>Permite a los visitantes de tu sitio web contactarte por medio de chat con uno de los medios de mayor uso en la actualidad y recibe los chat en tu movil, tablet o equipo, agregando con solo un par de clicks un botón en tu página web sin requerir conocimientos técnicos. 
-                                </p>
-                            </div>
-                        </div>
-                              ">
-                        Chat para tu sitio web
-                      </li>
-
-                    </ul>
-                  </div>
-                  <ul class="tooltips list-unstyled font-weight-light mb-0">
-                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
-                            <div class='card card-tooltip border-dark'>
-                              <div class='card-header text-uppercase'>Calidad Certificada ISO 9001</div>
-                              <div class='card-body text-gray p-1'>
-                                <p class='card-text p-3'>Único Proveedor de Hosting Certificado en Colombia.
-                                </p>
-                                </div>
-                                </div> "> Calidad Certificada ISO 9001
-                    </li>
-                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
-                            <div class='card card-tooltip border-dark'>
-                              <div class='card-header text-uppercase'>20 GB de espacio</div>
-                              <div class='card-body text-gray p-1'>
-                                <p class='card-text p-3'>Cantidad de datos que usted puede almacenar dentro de su cuenta, incluye contenido web, bases de datos y correos.
-                                </p>
-                                </div>
-                                </div> "> 20 GB de espacio
-                    </li>
-                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
-                            <div class='card card-tooltip border-dark'>
-                              <div class='card-header text-uppercase'>20 correos corporativos</div>
-                              <div class='card-body text-gray p-1'>
-                                <p class='card-text p-3'>Cantidad de cuentas de correo que incluye el plan, las cuentas pueden ser creadas por usted mediante el cPanel, las cuentas quedarán por ejemplo: gerencia@sudominio.com
-                                </p>
-                                </div>
-                                </div> "> 20 correos corporativos
-                    </li>
-                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
-                            <div class='card card-tooltip border-dark'>
-                              <div class='card-header text-uppercase'>Email Marketing</div>
-                              <div class='card-body text-gray p-1'>
-                                <p class='card-text p-3'>Realice campañas de email marketing a 1.000 contactos, 10 veces al mes desde la plataforma EmailMarketing, con estadísticas, plantillas e importación de contactos.
-                                </p>
-                                </div>
-                                </div> "> Email Marketing
-                    </li>
-                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
-                            <div class='card card-tooltip border-dark'>
-                              <div class='card-header text-uppercase'>10 Bases de Datos MySQL</div>
-                              <div class='card-body text-gray p-1'>
-                                <p class='card-text p-3'>Cantidad de bases de datos que puede utilizar su diseñador para crear el sitio web.
-                                </p>
-                                </div>
-                                </div> "> 10 Bases de Datos MySQL
-                    </li>
-                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
-                            <div class='card card-tooltip border-dark'>
-                              <div class='card-header text-uppercase'>Alojamiento para 1 Web</div>
-                              <div class='card-body text-gray p-1'>
-                                <p class='card-text p-3'>Es la cantidad total de sitios web con diferentes dominios que puedes alojar en el plan de Hosting, los dominios no estan incluidos, deben adquirirse por separado.
-                                </p>
-                                </div>
-                                </div> "> Alojamiento para 1 Web
-                    </li>
-                    <li tabindex="0" data-toggle="tooltip" data-html="true" title="
-                            <div class='card card-tooltip border-dark'>
-                              <div class='card-header text-uppercase'>Certificado SSL (https)</div>
-                              <div class='card-body text-gray p-1'>
-                                <p class='card-text p-3'>Certificado SSL LE SNI para tu sitio web, utiliza tu dominio principal con https y protege el tráfico de tus visitantes.
-                                </p>
-                                </div>
-                                </div> "> Certificado SSL (https)
-                    </li>
-                    <li>
-                      <a href="#" class="text-blue" data-toggle="modal" data-target="#plan2-modal">Ver todas las
-                        características</a>
-                    </li>
-                  </ul>
-                </div>
-
-                <a class="btn btn-orden text-uppercase"
-                  href="https://www.colombiahosting.com.co/configurar/hosting/colhost2">Empieza
-                  tu orden</a>
-              </div>
-    </section>
+      </div>
+    </section> -->
   <!--  <section class="section bg-secondary">
       <div class="container">
         <div class="row row-grid align-items-center">
@@ -1151,38 +1023,7 @@
         </div>
       </div>
     </section> -->
-    <section class="section section-lg section-shaped overflow-hidden my-0">
-        <div class="shape shape-style-1 shape-default shape-skew">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="container py-0 pb-lg">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-5 mb-5 mb-lg-0">
-                    <h1 class="text-white font-weight-light">Bootstrap carousel</h1>
-                    <p class="lead text-white mt-4">Argon Design System comes with four pre-built pages to help you get
-                        started faster. You can change the text and images and you're good to go.</p>
-                    <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                       class="btn btn-white mt-4">See all components</a>
-                </div>
-                <div class="col-lg-6 mb-lg-auto">
-                    <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
-                        <b-carousel id="carousel1"
-                                    controls
-                                    indicators>
-                            <!-- Text slides with image -->
-                            <b-carousel-slide img-src="https://demos.creative-tim.com/vue-argon-design-system/img/theme/landing.jpg"></b-carousel-slide>
-                            <b-carousel-slide img-src="https://demos.creative-tim.com/vue-argon-design-system/img/theme/profile.jpg"></b-carousel-slide>
-                        </b-carousel>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
     <a href="#" class="btn-flotante floating">
       <icon name="ni ni-bold-up">  </icon>
     </a>
@@ -1227,5 +1068,12 @@ export default {
 	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 	transform: translateY(-7px);
 }
+
+.shadow-desk {
+      box-shadow:0 0 20px 0 #6d6d6d;
+      z-index: 2
+  }
+
+    
 
 </style>
