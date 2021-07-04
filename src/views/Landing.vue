@@ -63,7 +63,7 @@
             <div class="row row-grid">
               <div class="col-lg-4">
                 <card
-                  class="border-0 row justify-content-center "
+                  class="border-0 row justify-content-center"
                   hover
                   shadow
                   body-classes="py-5"
@@ -110,7 +110,13 @@
                     número 3058623146 y espera mientras nuestros colaboradores
                     validan tus datos.
                   </p>
-                  <base-button tag="a" href="https://api.whatsapp.com/send?phone=+573058623146" type="success" class="mt-4" target="_blank">
+                  <base-button
+                    tag="a"
+                    href="https://api.whatsapp.com/send?phone=+573058623146"
+                    type="success"
+                    class="mt-4"
+                    target="_blank"
+                  >
                     Enviar
                   </base-button>
                 </card>
@@ -145,91 +151,120 @@
     <!-- por que medichats -->
 
     <section id="porque" class="section-shaped section-lg">
-       <div class="shape shape-style-1 shape-default shape-skew">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+      <div class="shape shape-style-1 shape-default shape-skew">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-12 order-md-2">
             <div class="row row-grid align-items-center">
               <div class="col-lg-12">
-                <h1 class="display-3 text-center text-white mb-5">¿Por qué Medichats?</h1>
+                <h1 class="display-3 text-center text-white mb-5">
+                  ¿Por qué Medichats?
+                </h1>
               </div>
             </div>
             <div class="row justify-content-center">
-             <div class=" col-lg-3 ">
+              <div class="col-lg-3">
                 <card
-                class="border-0  justify-content-center"
-                hover
-                body-classes="py-5"
-                shadow
-              >
-                <div >
-                  <img src="img/theme/svg/heart-green.svg" class="img-fluid mb-3 " />
-                </div>
-                <h5 class="title text-center">
-                  <span class="d-block mb-1 text-success">24/7.</span>
-                  <p class="h6 ">Sin importar el día o la hora, estamos disponibles para atenderte.</p>
-                </h5>
-              </card>
-             </div>
-             <div class=" col-lg-3 ">
+                  class="border-0 justify-content-center"
+                  hover
+                  body-classes="py-5"
+                  shadow
+                >
+                  <div>
+                    <img
+                      src="img/theme/svg/heart-green.svg"
+                      class="img-fluid mb-3"
+                    />
+                  </div>
+                  <h5 class="title text-center">
+                    <span class="d-block mb-1 text-success">24/7.</span>
+                    <p class="h6">
+                      Sin importar el día o la hora, estamos disponibles para
+                      atenderte.
+                    </p>
+                  </h5>
+                </card>
+              </div>
+              <div class="col-lg-3">
                 <card
-                class="border-0  justify-content-center"
-                hover
-                body-classes="py-5"
-                shadow
-              >
-                <div >
-                  <img src="img/theme/svg/world.svg" class="img-fluid mb-3 " />
-                </div>
-                <h5 class="title text-center">
-                  <span class="d-block mb-1 text-success">Estés donde estés.</span>
-                  <p class="h6 ">Puedes consultar con tu médico desde cualquier lugar del mundo.</p>
-                </h5>
-              </card>
-             </div>
-             <div class=" col-lg-3 ">
+                  class="border-0 justify-content-center"
+                  hover
+                  body-classes="py-5"
+                  shadow
+                >
+                  <div>
+                    <img src="img/theme/svg/world.svg" class="img-fluid mb-3" />
+                  </div>
+                  <h5 class="title text-center">
+                    <span class="d-block mb-1 text-success"
+                      >Estés donde estés.</span
+                    >
+                    <p class="h6">
+                      Puedes consultar con tu médico desde cualquier lugar del
+                      mundo.
+                    </p>
+                  </h5>
+                </card>
+              </div>
+              <div class="col-lg-3">
                 <card
-                class="border-0  justify-content-center"
-                hover
-                body-classes="py-5"
-                shadow
-              >
-                <div >
-                  <img src="img/theme/svg/doctor.svg" class="img-fluid mb-3 " />
-                </div>
-                <h5 class="title text-center">
-                  <span class="d-block mb-1 text-success">Doctores certificados.</span>
-                  <p class="h6 ">Nuestros profesionales de la salud están autorizados por la agencia gubernamental.</p>
-                </h5>
-              </card>
-             </div>
-             <div class=" col-lg-3 ">
+                  class="border-0 justify-content-center"
+                  hover
+                  body-classes="py-5"
+                  shadow
+                >
+                  <div>
+                    <img
+                      src="img/theme/svg/doctor.svg"
+                      class="img-fluid mb-3"
+                    />
+                  </div>
+                  <h5 class="title text-center">
+                    <span class="d-block mb-1 text-success"
+                      >Doctores certificados.</span
+                    >
+                    <p class="h6">
+                      Nuestros profesionales de la salud están autorizados por
+                      la agencia gubernamental.
+                    </p>
+                  </h5>
+                </card>
+              </div>
+              <div class="col-lg-3">
                 <card
-                class="border-0  justify-content-center"
-                hover
-                body-classes="py-5"
-                shadow
-              >
-                <div >
-                  <img src="img/theme/svg/Connected.svg" class="img-fluid mb-3 " />
-                </div>
-                <h5 class="title text-center">
-                  <span class="d-block mb-1 text-success">+1200 Pacientes registrados.</span>
-                  <p class="h6 ">Son mas de 1200 familias las que ya confían en nuestro servicio. </p>
-                </h5>
-              </card>
-             </div>
-             
+                  class="border-0 justify-content-center"
+                  hover
+                  body-classes="py-5"
+                  shadow
+                >
+                  <div>
+                    <img
+                      src="img/theme/svg/Connected.svg"
+                      class="img-fluid mb-3"
+                    />
+                  </div>
+                  <h5 class="title text-center">
+                    <span class="d-block mb-1 text-success"
+                      >+1200 Pacientes registrados.</span
+                    >
+                    <p class="h6">
+                      Son mas de 1200 familias las que ya confían en nuestro
+                      servicio.
+                    </p>
+                  </h5>
+                </card>
+              </div>
+
               <!-- <div class="px-4 " shadow>
               <img
                 v-lazy="'img/theme/team-1-800x800.jpg'"
@@ -274,15 +309,71 @@
                 </div>
               </div>
             </div> -->
-             
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- pracio -->
+    <section id="precio" class="section-shaped section-lg">
+      <div class="container">
+        <div id="tabla-precios  ">
+          <div class="precio-col">
+            <div class="precio-col-header">
+              <h3>15€/mes</h3>
+              <p>para principiantes</p>
+            </div>
+
+            <div class="precio-col-features">
+              <p>Característica 1</p>
+              <p>Característica 2</p>
+              <p>Característica 3</p>
+            </div>
+          </div>
+          <div class="precio-col">
+            <div class="precio-col-header">
+              <h3>15€/mes</h3>
+              <p>para principiantes</p>
+            </div>
+
+            <div class="precio-col-features">
+              <p>Característica 1</p>
+              <p>Característica 2</p>
+              <p>Característica 3</p>
+            </div>
+          </div>
+
+          <div class="precio-col">
+            <div class="precio-col-header">
+              <h3>30€/mes</h3>
+              <p>para avanzados</p>
+            </div>
+
+            <div class="precio-col-features">
+              <p>Característica 1</p>
+              <p>Característica 2</p>
+              <p>Característica 3</p>
+            </div>
+          </div>
+
+          <div class="precio-col">
+            <div class="precio-col-header">
+              <h3>50€/mes</h3>
+              <p>para profesionales</p>
+            </div>
+
+            <div class="precio-col-features">
+              <p>Característica 1</p>
+              <p>Característica 2</p>
+              <p>Característica 3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ----------- como---------------- -->
-     <section id="como" class="section section-lg">
+    <section id="como" class="section section-lg">
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-md-2">
@@ -300,61 +391,52 @@
               ></icon>
               <h3>¿Comó funciona?</h3>
               <p>
-                Medichats es la forma más rápida y segura de obtener ayuda personalizada de un profesional médico.
+                Una vez hallas formalizado tu afiliación los pasos que debes
+                seguir para solicitar una consulta médica son:
               </p>
-              <ul class="list-unstyled mt-5">
-                <li class="py-2">
+              <ul class="list-unstyled mt-3">
+                <li>
                   <div class="d-flex align-items-center">
                     <badge
                       type="success"
                       circle
                       class="mr-3"
-                      icon="ni ni-watch-time"
+                      icon="ni ni-send"
                     ></badge>
                     <h6 class="mb-0">
-                      La dedicación de nuestros médicos nos permite responder la mayoría de 
-                      las preguntas en un corto lapso de tiempo.
+                      Para iniciar debes enviar en un solo msj a la línea de
+                      consultas proporcionada en la afiliación los siguientes
+                      datos:
                     </h6>
                   </div>
-                </li>
-                <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <badge
-                      type="success"
-                      circle
-                      class="mr-3"
-                      icon="ni ni-calendar-grid-58"
-                    ></badge>
-                    <h6 class="mb-0">
-                      Estamos disponibles las 24 horas del día, los 7 días de la semana para que no tengas que preocuparte.
-                    </h6>
-                  </div>
-                </li>
-                <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <badge
-                      type="success"
-                      circle
-                      class="mr-3"
-                      icon="fa fa-users"
-                    ></badge>
-                    <h6 class="mb-0">
-                      Te atendemos a ti, y a tu núcleo familiar por el mismo precio. 
-                    </h6>
-                  </div>
-                </li>
-                 <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <badge
-                      type="success"
-                      circle
-                      class="mr-3"
-                      icon="fa fa-whatsapp"
-                    ></badge>
-                    <h6 class="mb-0">
-                      Para las consulatas usamos la mensajeria instantanea de WhatsApp  
-                    </h6>
-                  </div>
+                  <ul class="mt-1">
+                    <li class="py-1">
+                      <div class="d-flex align-items-center">
+                        Código de usuario
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="mt-1">
+                    <li class="py-1">
+                      <div class="d-flex align-items-center">
+                        Nombre del paciente.
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="mt-1">
+                    <li class="py-1">
+                      <div class="d-flex align-items-center">
+                        Edad del Paciente
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="mt-1">
+                    <li class="py-1">
+                      <div class="d-flex align-items-center">
+                        Motivo de la consulta.
+                      </div>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -362,43 +444,50 @@
         </div>
       </div>
     </section>
-     <section class="section section-lg section-shaped overflow-hidden my-0">
-        <div class="shape shape-style-1 shape-default shape-skew">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="container py-0 pb-lg">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-5 mb-5 mb-lg-0">
-                    <h1 class="text-white font-weight-light">MI EXPERIENCIA MEDICHATS</h1>
-                    <p class="lead text-white mt-4">
-                      Nuestros usuarios recomiendan Medichats porque es una excelente alternativa
-                      de asesoría médica especializada las 24 horas del día  
-                    </p>
-                    <a href="#registro"
-                    
-                       class="btn btn-white mt-4">
-                       <router-link
-                      class="nav-link nav-link-icon text-primary"
-                      to="#registro"
-                    >Regístrate Ahora
-                    </router-link></a>
-                    
-
-                </div>
-                <div class="col-lg-6 mb-lg-auto">
-                    <div class="rounded shadow-lg  transform-perspective-right">
-                       <iframe width="560" height="315" src="https://www.youtube.com/embed/uoa0gSS_SOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
+    <section class="section section-lg section-shaped overflow-hidden my-0">
+      <div class="shape shape-style-1 shape-default shape-skew">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="container py-0 pb-lg">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5 mb-5 mb-lg-0">
+            <h1 class="text-white font-weight-light">
+              MI EXPERIENCIA MEDICHATS
+            </h1>
+            <p class="lead text-white mt-4">
+              Nuestros usuarios recomiendan Medichats porque es una excelente
+              alternativa de asesoría médica especializada las 24 horas del día
+            </p>
+            <a href="#registro" class="btn btn-white mt-4">
+              <router-link
+                class="nav-link nav-link-icon text-primary"
+                to="#registro"
+                >Regístrate Ahora
+              </router-link></a
+            >
+          </div>
+          <div class="col-lg-6 mb-lg-auto">
+            <div class="rounded shadow-lg transform-perspective-right">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/uoa0gSS_SOY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-   <!--  <section>
+    <!--  <section>
       <div class="shadow-desk">
                 <div class="plan-preferido text-center font-weight-normal text-uppercase">
                   PREFERIDO
@@ -418,7 +507,7 @@
 
       </div>
     </section> -->
-  <!--  <section class="section bg-secondary">
+    <!--  <section class="section bg-secondary">
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6">
@@ -1032,15 +1121,15 @@
         </div>
       </div>
     </section> -->
-    
+
     <a href="#" class="btn-flotante floating">
-      <icon name="ni ni-bold-up">  </icon>
+      <icon name="ni ni-bold-up"> </icon>
     </a>
   </div>
 </template>
 
 <script>
-import Icon from '../components/Icon.vue';
+import Icon from "../components/Icon.vue";
 import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
 import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
 export default {
@@ -1048,7 +1137,7 @@ export default {
   components: {
     Icon,
     BCarousel,
-    BCarouselSlide
+    BCarouselSlide,
   },
 };
 </script>
@@ -1057,32 +1146,135 @@ export default {
   background-image: url("/img/ill/fondo.png");
 }
 .btn-flotante {
-	font-size: 16px; /* Cambiar el tamaño de la tipografia */
-	text-transform: uppercase; /* Texto en mayusculas */
-	font-weight: bold; /* Fuente en negrita o bold */
-	color: #ffffff; /* Color del texto */
-	border-radius: 5px; /* Borde del boton */
-	letter-spacing: 2px; /* Espacio entre letras */
-	background-color: #a3be2b; /* Color de fondo */
-	padding: 0.5px 1px; /* Relleno del boton */
-	position: fixed;
-	bottom: 40px;
-	right: 40px;
-	transition: all 300ms ease 0ms;
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-	z-index: 99;
+  font-size: 16px; /* Cambiar el tamaño de la tipografia */
+  text-transform: uppercase; /* Texto en mayusculas */
+  font-weight: bold; /* Fuente en negrita o bold */
+  color: #ffffff; /* Color del texto */
+  border-radius: 5px; /* Borde del boton */
+  letter-spacing: 2px; /* Espacio entre letras */
+  background-color: #a3be2b; /* Color de fondo */
+  padding: 0.5px 1px; /* Relleno del boton */
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  transition: all 300ms ease 0ms;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
 }
 .btn-flotante:hover {
-	background-color: #4973b1; /* Color de fondo al pasar el cursor */
-	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-	transform: translateY(-7px);
+  background-color: #4973b1; /* Color de fondo al pasar el cursor */
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-7px);
 }
 
 .shadow-desk {
-      box-shadow:0 0 20px 0 #6d6d6d;
-      z-index: 2
+  box-shadow: 0 0 20px 0 #6d6d6d;
+  z-index: 2;
+}
+
+#tabla-precios {
+  display: inline-block;
+  width: 100%;
+  margin-top: 50px;
+}
+
+/*Columnas*/
+
+.precio-col {
+  display: inline-block;
+  background-color: #f3f3f3;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: 0px 2px 5px #ddd;
+}
+
+@media screen and (min-width: 768px) {
+  .precio-col {
+    width: 23%;
+    float: none;
+    margin-right: 2%;
   }
 
-    
+  .precio-col:last-child {
+    margin-right: 0;
+  }
+}
 
+/*Headers*/
+
+.precio-col-header {
+  background-color: #4973b1;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.precio-col:nth-child(3) .precio-col-header {
+  background-color: #a3be2b;
+}
+
+.precio-col-header h3 {
+  color: #f3f3f3;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.precio-col-header p {
+  text-align: center;
+  color: #f3f3f3;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/*Características*/
+
+.precio-col-features {
+  padding: 0 20px 20px 20px;
+}
+
+.precio-col-features p {
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.precio-col-features p:first-child,
+.precio-col-features p:last-child {
+  border-top: none;
+}
+
+/*Comprar*/
+
+.precio-col-comprar {
+  padding: 10px;
+  max-width: 250px;
+  text-align: center;
+  background-color: #dd9933;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  border: 2px solid #dd9933;
+  transition: all 0.3s;
+}
+
+.precio-col-comprar a {
+  color: #f3f3f3;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.precio-col-comprar:hover {
+  background-color: #f3f3f3;
+  transition: all 0.3s;
+}
+
+.precio-col-comprar:hover a {
+  color: #dd9933;
+  transition: all 0.3s;
+}
 </style>

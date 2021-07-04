@@ -31,7 +31,7 @@
                                         
                                         <template>
                                             <div class="text-center text-muted mb-4">
-                                                <small>Llena el formulario y pronto nos comunicaremos contigo</small>
+                                                <small>Dejanos tus datos y pronto nos comunicaremos contigo</small>
                                             </div>
                                             <form role="form">
                                                 <base-input alternative
