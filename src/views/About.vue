@@ -34,8 +34,8 @@
         <div class="row justify-content-center text-center mb-lg">
           <div class="col-lg-8">
             <h2 class="display-3">NUESTRA MISIÓN</h2>
-            <p class="lead text-muted">
-              MEDICHATS es un servicio de AMESCO IPS que presta atención medica
+            <p class="lead ">
+              MEDICHATS es una empresa que cuenta con el respaldo de AMESCO IPS. Prestamos atención medica
               profesional virtual con el objeto satisfacer todas las necesidades
               en salud de nuestros afiliados las 24 horas.
             </p>
@@ -137,9 +137,9 @@
         <div class="row justify-content-center text-center mb-lg">
           <div class="col-lg-8">
             <h2 class="display-3">NUESTRA VISIÓN</h2>
-            <p class="lead text-muted">
+            <p class="lead ">
               Ser lideres en la prestación de los servicios de atención medica
-              profesional virtual que permitan satisfacer el abordaje inicial de
+              profesional virtual que permitan satisfacer el <b>ABORDAJE INICIAL Y SEGUIMIENTO</b> de
               cualquier necesidad o situación medica que tenga la familia las 24
               horas del día.
             </p>
@@ -341,7 +341,7 @@
               />
               <div class="pt-4 text-center">
                 <h5 class="title">
-                  <span class="d-block mb-1">Dagoberto Macias</span>
+                  <span class="d-block mb-1">Dagoberto Macias Cabrera</span>
                   <small class="h6 text-muted">Fundador</small>
                 </h5>
                 

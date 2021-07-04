@@ -313,7 +313,7 @@
                     ></badge>
                     <h6 class="mb-0">
                       La dedicación de nuestros médicos nos permite responder la mayoría de 
-                      las preguntas en 5 minutos o menos.
+                      las preguntas en un corto lapso de tiempo.
                     </h6>
                   </div>
                 </li>
