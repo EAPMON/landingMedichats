@@ -318,55 +318,66 @@
     <!-- pracio -->
     <section id="precio" class="section-shaped section-lg">
       <div class="container">
+        <div class="row row-grid align-items-center my-3">
+              <div class="col-lg-12">
+                <h1 class="display-3 text-center">
+                  Planes de atención
+                  <p class="text-center">
+                   Elige el que mas se ajuste a tus necesidades y las de tu familia 
+                  </p>
+                </h1>
+              </div>
+            </div>
         <div id="tabla-precios  ">
-          <div class="precio-col">
+          <div class="precio-col" hover>
             <div class="precio-col-header">
-              <h3>15€/mes</h3>
-              <p>para principiantes</p>
+              <h3>1 Mes</h3>
+              <p>Pon a prueba nuestro servicio</p>
             </div>
 
-            <div class="precio-col-features">
-              <p>Característica 1</p>
-              <p>Característica 2</p>
-              <p>Característica 3</p>
-            </div>
-          </div>
-          <div class="precio-col">
-            <div class="precio-col-header">
-              <h3>15€/mes</h3>
-              <p>para principiantes</p>
-            </div>
-
-            <div class="precio-col-features">
-              <p>Característica 1</p>
-              <p>Característica 2</p>
-              <p>Característica 3</p>
+            <div class="precio-col-features text-center">
+               <p><s class="lead-text"> Precio Normal: $12,000</s></p>
+              <p class="display-2"> $12,400</p>
+              <p class="heading"> Ahorra $0</p>
             </div>
           </div>
 
           <div class="precio-col">
             <div class="precio-col-header">
-              <h3>30€/mes</h3>
-              <p>para avanzados</p>
+              <h3>3 Meses</h3>
+              <p>Nunca es suficiente</p>
             </div>
 
-            <div class="precio-col-features">
-              <p>Característica 1</p>
-              <p>Característica 2</p>
-              <p>Característica 3</p>
+            <div class="precio-col-features text-center">
+              <p><s class="lead-text"> Precio Normal: $36,000</s></p>
+              <p class="display-2"> $32,400</p>
+              <p class="heading"> Ahorra 3.600</p>
+            </div>
+          </div>
+
+           <div class="precio-col">
+            <div class="precio-col-header">
+              <h3>6 Meses</h3>
+              <p>Disfruta todo lo que podemos ofrecer</p>
+            </div>
+
+            <div class="precio-col-features text-center">
+               <p><s class="lead-text"> Precio Normal: $72,000</s></p>
+              <p class="display-2"> $61,920</p>
+              <p class="heading"> Ahorra $10.080</p>
             </div>
           </div>
 
           <div class="precio-col">
             <div class="precio-col-header">
-              <h3>50€/mes</h3>
-              <p>para profesionales</p>
+              <h3>1 Año</h3>
+              <p>Siempre ofrecer mas</p>
             </div>
 
-            <div class="precio-col-features">
-              <p>Característica 1</p>
-              <p>Característica 2</p>
-              <p>Característica 3</p>
+            <div class="precio-col-features text-center">
+               <p><s class="lead-text"> Precio Normal: $144,000</s></p>
+              <p class="display-2"> $120,000</p>
+              <p class="heading"> Ahorra $24.000</p>
             </div>
           </div>
         </div>
@@ -1189,11 +1200,19 @@ export default {
   box-shadow: 0px 2px 5px #ddd;
 }
 
+
+
 @media screen and (min-width: 768px) {
   .precio-col {
     width: 23%;
     float: none;
     margin-right: 2%;
+  }
+
+  .precio-col:hover {
+    transition: transform .3s ease-out;
+  transform: translateY(-20px);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
   .precio-col:last-child {
@@ -1210,7 +1229,7 @@ export default {
   border-top-right-radius: 10px;
 }
 
-.precio-col:nth-child(3) .precio-col-header {
+.precio-col:nth-child(4) .precio-col-header {
   background-color: #a3be2b;
 }
 
@@ -1233,48 +1252,10 @@ export default {
 
 .precio-col-features {
   padding: 0 20px 20px 20px;
+  background-color: white;
 }
 
-.precio-col-features p {
-  padding: 20px 0;
-  margin: 0;
-  text-align: center;
-  border-top: 1px solid #ddd;
-}
 
-.precio-col-features p:first-child,
-.precio-col-features p:last-child {
-  border-top: none;
-}
 
-/*Comprar*/
 
-.precio-col-comprar {
-  padding: 10px;
-  max-width: 250px;
-  text-align: center;
-  background-color: #dd9933;
-  margin: 0 auto 20px;
-  border-radius: 10px;
-  border: 2px solid #dd9933;
-  transition: all 0.3s;
-}
-
-.precio-col-comprar a {
-  color: #f3f3f3;
-  padding: 10px;
-  font-size: 20px;
-  text-transform: uppercase;
-  transition: all 0.3s;
-}
-
-.precio-col-comprar:hover {
-  background-color: #f3f3f3;
-  transition: all 0.3s;
-}
-
-.precio-col-comprar:hover a {
-  color: #dd9933;
-  transition: all 0.3s;
-}
 </style>

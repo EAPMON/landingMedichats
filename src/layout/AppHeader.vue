@@ -65,6 +65,11 @@
             <span>Porqué Medichats</span>
           </router-link>
         </li>
+         <li class="nav-item" v-if="!isAbout">
+          <router-link class="nav-link nav-link-icon text-primary" to="#precio">
+            <span>Precio</span>
+          </router-link>
+        </li>
         <li class="nav-item" v-if="!isAbout">
           <router-link class="nav-link nav-link-icon text-primary" to="#como">
             <span>Como funciona</span>
