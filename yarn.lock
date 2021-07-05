@@ -8049,6 +8049,11 @@
     "unquote" "~1.1.1"
     "util.promisify" "~1.0.0"
 
+"sweetalert2@^11.0.18":
+  "integrity" "sha512-sF6huRQqqRGz7p9F8XFKSICl5hOiXjjpmnwAO8vlyJKAyMNZb2fvdok11JIGQjqcqVMIag/VLNWF4eEsIKQKGw=="
+  "resolved" "https://registry.npmjs.org/sweetalert2/-/sweetalert2-11.0.18.tgz"
+  "version" "11.0.18"
+
 "table@4.0.2":
   "integrity" "sha512-UUkEAPdSGxtRpiV9ozJ5cMTtYiqz7Ni1OGqLXRCynrvzdtR1p+cfOWe2RJLwvUG8hNanaSRjecIqwOjqeatDsA=="
   "resolved" "https://registry.npmjs.org/table/-/table-4.0.2.tgz"

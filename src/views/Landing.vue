@@ -337,7 +337,7 @@
 
             <div class="precio-col-features text-center">
                <p><s class="lead-text"> Precio Normal: $12,000</s></p>
-              <p class="display-2"> $12,400</p>
+              <p class="display-2"> $12,000</p>
               <p class="heading"> Ahorra $0</p>
             </div>
           </div>
